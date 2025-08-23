@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void func(vector<int>&arr, int n, int l)
+void func(vector<int>&arr, int n, int l) // Using One pointer
 {
     if(l >= (n-l-1))
     {
